@@ -2,21 +2,7 @@
 
 const DAYS = [
   {
-    id: "mon", dow: "Monday", short: "MON", code: "PUSH A",
-    title: "Chest + Shoulders + Triceps",
-    focus: "Main focus: Chest",
-    accent: "--push-a",
-    exercises: [
-      ["Barbell Bench Press", "3 × 6–10"],
-      ["Incline Dumbbell Press", "3 × 8–12"],
-      ["Cable Fly", "2 × 12–15"],
-      ["Dumbbell Lateral Raise", "3 × 12–20"],
-      ["Cable Triceps Pushdown", "3 × 10–15"],
-      ["Overhead Cable Triceps Extension", "2 × 10–15"]
-    ]
-  },
-  {
-    id: "tue", dow: "Tuesday", short: "TUE", code: "PULL A",
+    id: "mon", dow: "Monday", short: "MON", code: "PULL A",
     title: "Back + Biceps + Rear Delts",
     focus: "Main focus: Back thickness + overall back",
     accent: "--pull-a",
@@ -27,6 +13,20 @@ const DAYS = [
       ["Face Pull", "3 × 12–20"],
       ["Dumbbell Curl", "3 × 8–12"],
       ["Hammer Curl", "2 × 10–15"]
+    ]
+  },
+  {
+    id: "tue", dow: "Tuesday", short: "TUE", code: "PUSH A",
+    title: "Chest + Shoulders + Triceps",
+    focus: "Main focus: Chest",
+    accent: "--push-a",
+    exercises: [
+      ["Barbell Bench Press", "3 × 6–10"],
+      ["Incline Dumbbell Press", "3 × 8–12"],
+      ["Cable Fly", "2 × 12–15"],
+      ["Dumbbell Lateral Raise", "3 × 12–20"],
+      ["Cable Triceps Pushdown", "3 × 10–15"],
+      ["Overhead Cable Triceps Extension", "2 × 10–15"]
     ]
   },
   {
@@ -45,21 +45,7 @@ const DAYS = [
     ]
   },
   {
-    id: "thu", dow: "Thursday", short: "THU", code: "PUSH B",
-    title: "Shoulders + Upper Chest",
-    focus: "Main focus: Shoulders + upper chest",
-    accent: "--push-b",
-    exercises: [
-      ["Overhead Dumbbell Press", "3 × 6–10"],
-      ["Incline Barbell Bench Press", "3 × 6–10"],
-      ["Machine Chest Press", "3 × 8–12"],
-      ["Cable Lateral Raise", "3 × 12–20"],
-      ["Pec Deck", "2 × 12–15"],
-      ["Rope Triceps Extension", "3 × 10–15"]
-    ]
-  },
-  {
-    id: "fri", dow: "Friday", short: "FRI", code: "PULL B",
+    id: "thu", dow: "Thursday", short: "THU", code: "PULL B",
     title: "Lats + Rear Delts + Biceps",
     focus: "Main focus: Lat width",
     accent: "--pull-b",
@@ -70,6 +56,20 @@ const DAYS = [
       ["Reverse Pec Deck", "3 × 12–20"],
       ["Incline Dumbbell Curl", "3 × 8–12"],
       ["Cable Hammer Curl", "2 × 10–15"]
+    ]
+  },
+  {
+    id: "fri", dow: "Friday", short: "FRI", code: "PUSH B",
+    title: "Shoulders + Upper Chest",
+    focus: "Main focus: Shoulders + upper chest",
+    accent: "--push-b",
+    exercises: [
+      ["Overhead Dumbbell Press", "3 × 6–10"],
+      ["Incline Barbell Bench Press", "3 × 6–10"],
+      ["Machine Chest Press", "3 × 8–12"],
+      ["Cable Lateral Raise", "3 × 12–20"],
+      ["Pec Deck", "2 × 12–15"],
+      ["Rope Triceps Extension", "3 × 10–15"]
     ]
   },
   {
