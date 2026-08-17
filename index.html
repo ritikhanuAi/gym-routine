@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weekly Training Log</title>
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="top">
+  <div class="top-inner">
+    <div class="brand">
+      <span class="brand-mark">PPL</span>
+      <h1>WEEKLY TRAINING LOG</h1>
+    </div>
+    <div class="week-meta">
+      <div class="week-label" id="weekLabel">WEEK —</div>
+      <div class="week-count"><span id="pctNum">0</span><span class="pct-sign">%</span></div>
+    </div>
+  </div>
+
+  <div class="strip" id="weekStrip"><!-- filled by JS --></div>
+</header>
+
+<main id="days"><!-- day cards injected by JS --></main>
+
+<footer class="bottom">
+  <p>Progress resets automatically at the start of every training week (Monday).</p>
+  <button id="resetBtn" type="button">Reset this week</button>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
